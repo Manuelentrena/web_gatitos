@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet"  href="css/grid.css"> 
+    <link rel="stylesheet"  href="css/estilos.css"> 
+    <link rel="stylesheet"  href="css/animation.css"> 
+    <title>PetShop</title>
+</head>
+<body>
+    <!-- Aqui empieza el navbar -->
+    <header>
+        <nav>
+            <div class="logo_imagen">
+                <a href="index.html"><img src="img/logo_gatos.png" alt=""></a>
+            </div>
+            <div class="nav_options">
+                <ul id="menu">
+                    <li><a href="faqs.html">Faqs</a></li>
+                    <li><a href="products.html">Producto / descripción</a></li>
+                </ul>
+                <label for="btn_menu"><img src="img/icono_menu.png" alt="" onclick="clickMenuNav()"></label>
+            </div>    
+        </nav>  
+    </header>
+    <!-- Aqui empieza contenedor del grid -->
+    <div class="container size_body_products_mobile">
+
+        <div class="row border_title_products">
+            <h1 class="col-7 title_products">Productos</h1>
+        </div>
+
+         <!-- 1º PRODUCTO -->
+        <div class="row center margin_products">
+            <div class="col-4 center_text">
+                <img src="img/gato_1.jpg" class="style_img_cat size_cat_product">
+            </div>
+            <div class="col-2 center_text no_visible_tittle">
+                <h1 class="style_title_one_product">Gatito De Nieve</h1>
+            </div>
+            <div class="col-7">
+                <p class="p_products">Nuestro producto estrella. No hay nada como un gatito de Nieve. De la Sierra de los picos, criado en su habitad natural. No dejes escapar la oportunidad compra!</p>
+            </div>
+        </div>
+
+        <!-- 2º PRODUCTO -->
+        <div class="row center margin_products order_inverted_product">
+            <div class="col-4 center_text ">
+                <img src="img/gato_2.jpg" class="style_img_cat size_cat_product">
+            </div>
+            <div class="col-2 center_text no_visible_tittle">
+                <h1 class="style_title_one_product">Gatito De Nieve</h1>
+            </div> 
+            <div class="col-7">
+                <p class="p_products ">Nuestro producto estrella. No hay nada como un gatito de Nieve. De la Sierra de los picos, criado en su habitad natural. No dejes escapar la oportunidad compra!</p>
+            </div>
+        </div>
+
+        <!-- 3º PRODUCTO -->
+        <div class="row center margin_products">
+            <div class="col-4 center_text">
+                <img src="img/gato_3.jpg" class="style_img_cat size_cat_product">
+            </div>
+            <div class="col-2 center_text no_visible_tittle">
+                <h1 class="style_title_one_product">Gatito De Nieve</h1>
+            </div>
+            <div class="col-7">
+                <p class="p_products">Nuestro producto estrella. No hay nada como un gatito de Nieve. De la Sierra de los picos, criado en su habitad natural. No dejes escapar la oportunidad compra!</p>
+            </div>
+    </div>
+
+    </div>
+
+    <!-- Aqui empieza el footer -->
+    <footer>
+        <p>© Copyright 2001-2020 Copyright.es - Todos los Derechos Reservados - Legal</p>
+        <div class="footer_options">
+            <ul>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="mailto:manuel.entrena@gmail.com">CONTACTO</a></li>
+            </ul>
+            <a href="mailto:manuel.entrena@gmail.com"><img src="img/icono_contacto.png" class="icono_contacto"></a>
+        </div>    
+    </footer> 
+    
+    <!-- Enlace Javascript -->
+    <script src="js/mostrar_menu.js"></script>
+</body>
+</html>

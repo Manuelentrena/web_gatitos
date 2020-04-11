@@ -1,0 +1,17 @@
+body{
+    background-color: var(--gray_moreblack);
+    height: 100vh;
+}
+
+.content-paypal{
+    text-align: center;
+    width: 350px;;
+}
+.content-paypal__img{
+    width: 350px;
+    height: 250px;
+}
+
+.content-paypal__a{
+   color: var(--orange_black);
+}
